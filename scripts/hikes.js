@@ -18,7 +18,7 @@ for (i = 0; i < categories.length; i++) {
 console.log("3")
 function makeHike(hike) { //MAKE A RESULT
     const output = document.createElement("div");
-    output.innerHTML = hike.name;
+    output.innerHTML = `<div>${hike.name}</div>`;
     output.innerHTML += `<img src="images/${hike.scenicImage}">`;
     output.innerHTML += `<img src="images/${hike.trailMapImage}">`;
     return output;
