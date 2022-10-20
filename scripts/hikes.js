@@ -1,12 +1,8 @@
 // 1. get category select  element by id
-console.log("1")
-const category = document.getElementById("category");
-console.log(category);
+const categories = document.getElementById("category");
 
 // 2. loop through hikes data categories
-console.log("2")
-// 2b. insert each category
-console.log("2b")
+
 for (i = 0; i < categories.length; i++) {
     console.log(categories[i]);
     const option = document.createElement("option");
